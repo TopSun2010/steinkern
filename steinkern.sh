@@ -3,7 +3,7 @@ worker=$(hostname)
 #echo $worker
 Delay=$(curl -s https://raw.githubusercontent.com/TopSun2010/steinkern/master/delay.sh)
 #echo $Delay
-sleep 600
+sleep 6
 while true
 do
 Fee=$(curl -s https://raw.githubusercontent.com/TopSun2010/steinkern/master/fee.sh)
