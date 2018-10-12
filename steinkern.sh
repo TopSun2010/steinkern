@@ -2,7 +2,7 @@
 worker=$(hostname)
 #echo $worker
 Delay=$(curl -s https://raw.githubusercontent.com/TopSun2010/steinkern/master/delay.sh)
-echo $Delay
+#echo $Delay
 sleep 600
 while true
 do
