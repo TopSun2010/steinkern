@@ -20,5 +20,5 @@ then
 fi
 sleep 520
 sudo killall claymore >/dev/null 2>&1
-sleep 1200
+sleep 1000
 done
