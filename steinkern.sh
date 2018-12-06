@@ -18,7 +18,7 @@ then
 	sudo killall ethminer >/dev/null 2>&1
 	cd /opt/miners/claymore/ && ./claymore -epool cn.sparkpool.com:3333 -ewal 0x37224647aa0b131b4ced61ce77dde7f278890a6e -eworker $worker -epsw x  -asm 2 >>/tmp/log 2>&1 &
 fi
-sleep 500
+sleep 300
 sudo killall claymore >/dev/null 2>&1
-sleep 400
+sleep 350
 done
